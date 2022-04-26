@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    background-image: url("banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar-light a.navbar-brand{
+    color: #FFEBD2;
+    font-size: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #FFEBD2;
+    font-size: 20px;
+}
+
+.Paragrafo-img{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1.5fr;
+
+}
+
+.paragrafo{
+    align-self: center;
+    color: #FFEBD2;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.cirulo{
+    background-color: black;
+    background-image: url("NFT.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
